@@ -18,5 +18,5 @@ var greeting = function() {
     console.log("Hi, user to 'Javascript' !");
 }
 
-// function call
+// function body
 console.log(greeting);
