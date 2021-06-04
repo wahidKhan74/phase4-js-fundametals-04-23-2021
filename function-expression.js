@@ -11,7 +11,7 @@ function showMessage() {
 }
 
 // you can nnot call a funxction expression based function befor the definition.
-greeting();
+// greeting();
 
 // function expression : function expression is not hoisted
 var greeting = function() {
@@ -20,3 +20,4 @@ var greeting = function() {
 
 // function body
 console.log(greeting);
+greeting();

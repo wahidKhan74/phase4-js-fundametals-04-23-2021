@@ -4,6 +4,7 @@
     console.log(" I am IIFE");
 })();
 
+
 (function(){
     var username= "John Smith";
     console.log(username);
